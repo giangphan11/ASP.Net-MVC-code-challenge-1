@@ -1,0 +1,142 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Nhom3.Site1" %>
+
+<%@ Register Src="uc/MainMenu.ascx" TagName="MainMenu" TagPrefix="uc1" %>
+<%@ Register Src="uc/Menu_Left.ascx" TagName="Menu_Left" TagPrefix="uc2" %>
+<%@ Register Src="uc/Slide.ascx" TagName="Slide" TagPrefix="uc3" %>
+<%@ Register Src="uc/menu_footer.ascx" TagName="menu_footer" TagPrefix="uc4" %>
+<%@ Register Src="uc/header.ascx" TagName="header" TagPrefix="uc5" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Moon Cosmetic</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="App_Themes/themes/Nhom3/css/jquery.lightbox-0.5.css"
+        media="screen" />
+    <link rel="shortcut icon" href="uploads/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="App_Themes/themes/Nhom3/template.css" type="text/css" />
+    <link rel="stylesheet" href="App_Themes/themes/Nhom3/css/coin-slider.css" type="text/css" />
+    <link rel="stylesheet" href="App_Themes/themes/Nhom3/style.css" type="text/css" />
+    <script type="text/javascript" src="App_Themes/themes/Nhom3/js/dinamods.js"></script>
+    <script type="text/javascript" src="App_Themes/themes/Nhom3/js/jquery.min.js"></script>
+    <script type="text/javascript" src="App_Themes/themes/Nhom3/js/coin-slider.js"></script>
+    <script type="text/javascript" src="App_Themes/themes/Nhom3/js/jquery.lightbox-0.5.js"></script>
+    <script type="text/javascript" src="App_Themes/themes/Nhom3/js/slider.js"></script>
+
+    <script type="text/javascript" language="Javascript" src="http://vnexpress.net/Service/Forex_Content.js"></script>
+    <script type="text/javascript" language="JavaScript" src="http://vnexpress.net/Service/Gold_Content.js"></script>
+    <script type="text/javascript" language="JavaScript" src="http://vnexpress.net/Library/Common/Vne.js"></script>
+    <script type="text/javascript" language="JavaScript" src="http://vnexpress.net/Library/Common/Library.js"></script>
+
+    <script type='text/javascript'>        $(function () { $(window).scroll(function () { if ($(this).scrollTop() != 0) { $("#noop-top").fadeIn() } else { $("#noop-top").fadeOut() } }); $("#noop-top").click(function () { $("body,html").animate({ scrollTop: 0 }, 800); return false }) });</script>
+    <link href="App_Themes/themes/Nhom3/js/jquery.autocomplete.css" rel="stylesheet"
+        type="text/css" />
+    <script src="App_Themes/themes/Nhom3/Js/jquery.autocomplete.js" type="text/javascript"></script>
+
+
+
+</head>
+<body id="wp-master" class="wp-textstyle-business wp-textsize-medium wp-color-blue wp-direction-ltr">
+    <form id="form1" runat="server">
+        <div id="fb-root">
+        </div>
+        <div id="wp-header">
+            <div id="wp-header_inner" class="clearafter" style="position: relative;">
+                <div id="wp-logo">
+                    <a href="Default.aspx" title="shop bán xe điện">
+                        <img src="App_Themes/themes/Nhom3/images/logo.png" alt="shop bán xe điện" /></a>
+                </div>
+                <div id="wp-headerright">
+                    <%-- header--%>
+                    <uc5:header ID="header1" runat="server" />
+                </div>
+            </div>
+        </div>
+        <%--uc_menu--%>
+        <uc1:MainMenu ID="MainMenu1" runat="server" />
+        <div id="wp-page">
+            <div id="wp-upper-decor">
+            </div>
+            <div id="wp-body">
+                <%--    slide--%>
+                <%if (Request.QueryString["page"] == null)
+                    {%>
+                <uc3:Slide ID="Slide1" runat="server" />
+                <% } %>
+                <div id="wp-content" class="wp-hasleft  clearafter">
+                    <div id="wp-maincontent">
+                        <div id="wp-centercol">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    <div id="wp-leftsidecontent">
+                        <div id="wp-leftsidecontent_inner">
+                            <%--	menuleft--%>
+                            <uc2:Menu_Left ID="Menu_Left1" runat="server" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="wp-bottom-decor">
+            </div>
+        </div>
+        <div id="wp-content-bottom">
+            <div id="wp-pos-content-bottom" class="wp-modulescontainer wp-modulescontainer1 clearafter">
+                <div class=" wp-modulecontainer">
+                    <div class="wp-modulecontainer_inner">
+                        <%--menu_footer--%>
+                        <uc4:menu_footer ID="menu_footer1" runat="server" />
+                        <div class="clearbreak">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wp-footer" class="wp-positionscontainer2">
+            <div id="wp-footer_inner">
+                <div id="wp-footer_inner1">
+                    <div id="wp-footerleft">
+                        <div id="wp-pos-footer">
+                            <div class=" wp-modulecontainer">
+                                <div class="wp-modulecontainer_inner">
+                                    <div class="wp-modulecontent">
+
+                                        <p>
+                                           
+
+                                            Email: <a href=""><font class="highlight">ABC2020@gmail.com</font></a>
+                                            <div class="clearbreak">
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="wp-footerright">
+                        <div id="wp-pos-bottom">
+                            <div class=" wp-modulecontainer">
+                                <div class="wp-modulecontainer_inner">
+                                    <div class="wp-modulecontent">
+                                        <p>
+                                            Điện thoại: <font class="highlight">01232212212 hoặc 0123112312</font><br />
+                                        </p>
+                                        <div class="clearbreak">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearbreak">
+                    </div>
+                </div>
+            </div>
+    </form>
+
+    <a id='noop-top' style='display: none; position: fixed; bottom: 1px; right: 1%; cursor: pointer; font: 12px arial;' title="Lên Đầu">
+        <img src='App_Themes/themes/Nhom3/images/noops-up-orange.png' width="67px" height="67px" /></a>
+
+</body>
+</html>

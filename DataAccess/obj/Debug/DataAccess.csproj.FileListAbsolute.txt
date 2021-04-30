@@ -1,0 +1,61 @@
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\DataAccess\bin\Debug\Core.dll
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\DataAccess\bin\Debug\Core.pdb
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\DataAccess\obj\Debug\DataAccess.pdb
+D:\LamPJ\DataAccess\bin\Debug\DataAccess.dll
+D:\LamPJ\DataAccess\bin\Debug\DataAccess.pdb
+D:\LamPJ\DataAccess\bin\Debug\Core.dll
+D:\LamPJ\DataAccess\bin\Debug\Core.pdb
+D:\LamPJ\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+D:\LamPJ\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\LamPJ\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\LamPJ\DataAccess\obj\Debug\DataAccess.dll
+D:\LamPJ\DataAccess\obj\Debug\DataAccess.pdb
+E:\TTTN\ASPwebMypham\DataAccess\bin\Debug\DataAccess.dll
+E:\TTTN\ASPwebMypham\DataAccess\bin\Debug\DataAccess.pdb
+E:\TTTN\ASPwebMypham\DataAccess\bin\Debug\Core.dll
+E:\TTTN\ASPwebMypham\DataAccess\bin\Debug\Core.pdb
+E:\TTTN\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+E:\TTTN\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+E:\TTTN\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+E:\TTTN\ASPwebMypham\DataAccess\obj\Debug\DataAccess.dll
+E:\TTTN\ASPwebMypham\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\vuchungdung\Desktop\file\ASPwebMypham\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\vuchungdung\Desktop\file\ASPwebMypham\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\vuchungdung\Desktop\file\ASPwebMypham\DataAccess\bin\Debug\Core.dll
+C:\Users\vuchungdung\Desktop\file\ASPwebMypham\DataAccess\bin\Debug\Core.pdb
+C:\Users\vuchungdung\Desktop\file\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\vuchungdung\Desktop\file\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vuchungdung\Desktop\file\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\vuchungdung\Desktop\file\ASPwebMypham\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\vuchungdung\Desktop\file\ASPwebMypham\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\DataAccess\bin\Debug\Core.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\DataAccess\bin\Debug\Core.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\DataAccess\bin\Debug\Core.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\DataAccess\bin\Debug\Core.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\DataAccess\obj\Debug\DataAccess.pdb
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\DataAccess\bin\Debug\DataAccess.dll
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\DataAccess\bin\Debug\DataAccess.pdb
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\DataAccess\bin\Debug\Core.dll
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\DataAccess\bin\Debug\Core.pdb
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\DataAccess\obj\Debug\DataAccess.dll
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\DataAccess\obj\Debug\DataAccess.pdb

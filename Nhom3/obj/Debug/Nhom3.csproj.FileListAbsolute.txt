@@ -1,0 +1,13 @@
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\bin\Nhom3.dll.config
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\bin\Nhom3.dll
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\bin\Nhom3.pdb
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\bin\Core.dll
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\bin\DataAccess.dll
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\bin\Core.pdb
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\bin\DataAccess.pdb
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\obj\Debug\Nhom3.dll.licenses
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\obj\Debug\Nhom3.csproj.CoreCompileInputs.cache
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\obj\Debug\Nhom3.csproj.CopyComplete
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\obj\Debug\Nhom3.dll
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\obj\Debug\Nhom3.pdb
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Nhom3\obj\Debug\Nhom3.csprojAssemblyReference.cache

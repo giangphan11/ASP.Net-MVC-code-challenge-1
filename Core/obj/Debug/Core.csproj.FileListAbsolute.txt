@@ -1,0 +1,34 @@
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\Core\bin\Debug\Core.dll
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\Core\bin\Debug\Core.pdb
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\Core\obj\Debug\Core.dll
+C:\Users\Administrator\Desktop\NGOTHE\Nhom3\Core\obj\Debug\Core.pdb
+D:\LamPJ\Core\bin\Debug\Core.dll
+D:\LamPJ\Core\bin\Debug\Core.pdb
+D:\LamPJ\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+D:\LamPJ\Core\obj\Debug\Core.dll
+D:\LamPJ\Core\obj\Debug\Core.pdb
+E:\TTTN\ASPwebMypham\Core\bin\Debug\Core.dll
+E:\TTTN\ASPwebMypham\Core\bin\Debug\Core.pdb
+E:\TTTN\ASPwebMypham\Core\obj\Debug\Core.csprojAssemblyReference.cache
+E:\TTTN\ASPwebMypham\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+E:\TTTN\ASPwebMypham\Core\obj\Debug\Core.dll
+E:\TTTN\ASPwebMypham\Core\obj\Debug\Core.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\Core\bin\Debug\Core.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\Core\bin\Debug\Core.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\Core\obj\Debug\Core.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\Core\obj\Debug\Core.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\Core\bin\Debug\Core.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\Core\bin\Debug\Core.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\Core\obj\Debug\Core.dll
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\Core\obj\Debug\Core.pdb
+C:\Users\vuchungdung\Desktop\ASPwebMypham\ASPwebMypham\ASPwebMypham\Core\obj\Debug\Core.csprojAssemblyReference.cache
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Core\bin\Debug\Core.dll
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Core\bin\Debug\Core.pdb
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Core\obj\Debug\Core.csprojAssemblyReference.cache
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Core\obj\Debug\Core.dll
+D:\K2-Nam 4\BTL\DangThiMinhHang_HTTT1_K12\DangThiMinhHang_HTTT1_K12\ASPwebMypham\Core\obj\Debug\Core.pdb
