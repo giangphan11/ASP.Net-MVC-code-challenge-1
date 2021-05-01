@@ -5,7 +5,6 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using DataAccess;
-using DataAccess;
 using System.IO;
 
 namespace Nhom3.AdminControls

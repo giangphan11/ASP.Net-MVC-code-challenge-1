@@ -44,8 +44,10 @@
   <ItemGroup>
     <Compile Include="Cart_Temp.cs" />
     <Compile Include="category_info.cs" />
+    <Compile Include="Common.cs" />
     <Compile Include="HamXuLy.cs" />
     <Compile Include="lienhe_info.cs" />
+    <Compile Include="OrderDetailReport.cs" />
     <Compile Include="OrderDetails_Info.cs" />
     <Compile Include="Orders_Info.cs" />
     <Compile Include="Products_info.cs" />
