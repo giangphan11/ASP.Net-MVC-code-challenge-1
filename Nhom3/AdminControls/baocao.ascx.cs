@@ -9,41 +9,50 @@ using System.IO;
 using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using DataAccess;
+using Core;
 namespace Nhom3.AdminControls
 {
     public partial class baocao : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
-
-        public static DataTable BindData()
-        {
-            DataTable dt = new DataTable();
-            SqlConnection conn = new SqlConnection(@"Data Source=PBGIANG;Initial Catalog=NHOM3;Integrated Security=True");
-            conn.Open();
-            SqlCommand cmd = new SqlCommand("select * from Results", conn);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            DataSet ds = new DataSet();
-            da.Fill(ds);
-            dt = ds.Tables[0];
-            conn.Close();
-            return dt;
-        }
-        [WebMethod]
-        public static string GetBarData()
-        {
-            DataTable dt = BindData();
-            dt.TableName = "Bar";
-            string result;
-            using (StringWriter sw = new StringWriter())
+            if (!IsPostBack)
             {
-                dt.WriteXml(sw);
-                result = sw.ToString();
+                drpDate.DataSource = DateInstance.getListDate();
+                drpDate.DataValueField = "DateValue";
+                drpDate.DataTextField = "Name";
+                drpDate.DataBind();
             }
-            return result;
         }
+
+        protected void drpDate_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DateInstance []data2 = DateInstance.getListDate().ToArray();
+            DateInstance dateInstance = null;
+            for (int i=0; i<data2.Length; i++)
+            {
+                if(i== drpDate.SelectedIndex)
+                {
+                    dateInstance = data2[i];
+                    break;
+                }
+            }
+
+            if(dateInstance == null)
+            {
+                dateInstance = new DateInstance(1, "Hôm nay", DateTime.Now);
+            }
+
+   //         ScriptManager.RegisterStartupScript(
+   //this, this.GetType(), "alert",
+   //"alert('" + dateInstance.DateID + "');location.href='admin.aspx?page=baocao';", true);
+
+            if (HttpContext.Current.Session["dateg"] != null)
+            {
+                HttpContext.Current.Session["dateg"] = dateInstance;
+            }
+        }
+
     }
 }

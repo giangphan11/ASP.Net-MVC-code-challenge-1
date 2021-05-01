@@ -12,9 +12,9 @@
 
     <!-- jQuery file -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-    <script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script type="text/javascript">
         window.onload = function () {
             var dateArra = [];
             var countArra = [];
@@ -44,8 +44,8 @@
                 dataType: "json",
                 success: function (result) {
                     $(result.d).find("Bar").each(function () {
-                        var date = $(this).find('Date').text();
-                        var count = parseInt($(this).find('Count').text());
+                        var date = $(this).find('orderid').text();
+                        var count = parseInt($(this).find('GIA').text());
                         dateArra.push(date);
                         countArra.push(count);
                     });
@@ -56,7 +56,7 @@
                             labels: dateArra,//x
                             datasets: [
                                 {
-                                    label: 'DateCount',
+                                    label: 'Tổng giá theo đơn hàng',
                                     backgroundColor: bgClorArra,
                                     borderColor: borderColor,
                                     borderWidth: 1,
@@ -81,8 +81,57 @@
                 },
             });
 
+            //
+            var dateArra2 = [];
+            var countArra2 = [];
+            $.ajax({
+                type: "POST",
+                url: "admin.aspx/GetBarDataLala",
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    $(result.d).find("Bar").each(function () {
+                        var date = $(this).find('orderid').text();
+                        var count = parseInt($(this).find('GIA').text());
+                        dateArra2.push(date);
+                        countArra2.push(count);
+                    });
+                    var ctx = document.getElementById("myChart2");
+                    var myChart2 = new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: dateArra2,//x
+                            datasets: [
+                                {
+                                    label: 'DateCount',
+                                    backgroundColor: bgClorArra,
+                                    borderColor: borderColor,
+                                    borderWidth: 1,
+                                   // hoverBackgroundColor: bgClorArra,
+                                    data: countArra2,//y
+                                }
+                            ]
+                        },
+                        options: {
+                            legend: {
+                                display: true,
+                            },
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero: true,
+                                    },
+                                }]
+                            },
+                        }
+                    });
+                },
+            });
+
         }
     </script>
+
+  
 
     <script src="App_Themes/admin/js/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
