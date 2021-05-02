@@ -23,9 +23,20 @@
 
 <div class="card main1">
     <div class="card-header">
-        <h3>Báo cáo -  Thống kê</h3>
+        <h3>Thống kê tổng giá theo đơn hàng</h3>
     </div>
     <div class="card-content">
         <canvas id="myChart2"></canvas>
+    </div>
+</div>
+
+&nbsp;&nbsp;
+
+<div class="card main1">
+    <div class="card-header">
+        <h3>Thống kê tổng đơn giá theo ngày trong tháng</h3>
+    </div>
+    <div class="card-content">
+        <canvas id="myChart3"></canvas>
     </div>
 </div>

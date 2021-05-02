@@ -44,10 +44,6 @@ namespace Nhom3.AdminControls
                 dateInstance = new DateInstance(1, "Hôm nay", DateTime.Now);
             }
 
-   //         ScriptManager.RegisterStartupScript(
-   //this, this.GetType(), "alert",
-   //"alert('" + dateInstance.DateID + "');location.href='admin.aspx?page=baocao';", true);
-
             if (HttpContext.Current.Session["dateg"] != null)
             {
                 HttpContext.Current.Session["dateg"] = dateInstance;

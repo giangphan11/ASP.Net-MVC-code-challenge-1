@@ -25,7 +25,11 @@
                 'rgba(255, 206, 86, 0.2)',
                 'rgba(75, 192, 192, 0.2)',
                 'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(205, 132, 241,0.2)',
+                'rgba(58, 227, 116, 0.2)',
+                'rgba(113, 88, 226, 0.2)',
+                'rgba(46, 134, 222,0.2)',
             ];
 
             var borderColor = [
@@ -34,7 +38,12 @@
                 'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                'rgba(255, 159, 64, 1)',
+                'rgba(205, 132, 241,1)',
+                'rgba(58, 227, 116, 1)',
+                'rgba(113, 88, 226,1)',
+                'rgba(46, 134, 222,1)',
+
             ];
 
             $.ajax({
@@ -60,7 +69,7 @@
                                     backgroundColor: bgClorArra,
                                     borderColor: borderColor,
                                     borderWidth: 1,
-                                   // hoverBackgroundColor: bgClorArra,
+                                    // hoverBackgroundColor: bgClorArra,
                                     data: countArra,//y
                                 }
                             ]
@@ -104,10 +113,22 @@
                             datasets: [
                                 {
                                     label: 'DateCount',
-                                    backgroundColor: bgClorArra,
-                                    borderColor: borderColor,
-                                    borderWidth: 1,
-                                   // hoverBackgroundColor: bgClorArra,
+                                    backgroundColor: [
+                                        'rgb(255, 99, 132)',
+                                        'rgb(54, 162, 235)',
+                                        'rgb(255, 205, 86)',
+                                        'rgb(52, 31, 151)',
+                                        'rgb(34, 47, 62)',
+                                        'rgb(243, 104, 224)',
+                                        'rgb(46, 134, 222)',
+                                        'rgb(113, 88, 226)',
+                                        'rgb(58, 227, 116)',
+                                        'rgb(205, 132, 241)',
+                                    ],
+                                    hoverOffset: 4,
+                                    //borderColor: borderColor,
+                                    //borderWidth: 1,
+                                    // hoverBackgroundColor: bgClorArra,
                                     data: countArra2,//y
                                 }
                             ]
@@ -128,10 +149,49 @@
                 },
             });
 
+            //
+            var dateArra3 = [];
+            var countArra3 = [];
+            $.ajax({
+                type: "POST",
+                url: "admin.aspx/GetBarDataTotalAmoutByMonth",
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    $(result.d).find("Bar").each(function () {
+                        var date = $(this).find('createDate').text();
+                        var count = parseInt($(this).find('TotalAmout').text());
+                        dateArra3.push(date);
+                        countArra3.push(count);
+                    });
+                    var ctx = document.getElementById("myChart3");
+                    var myChart3 = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: dateArra3,//x
+                            datasets: [
+                                {
+                                    label: 'Tổng đơn giá',
+                                    fill: false,
+                                    borderColor: 'rgb(75, 192, 192)',
+                                    hoverOffset: 4,
+                                    tension: 0.1,
+                                    //borderColor: borderColor,
+                                    //borderWidth: 1,
+                                    // hoverBackgroundColor: bgClorArra,
+                                    data: countArra3,//y
+                                }
+                            ]
+                        },
+                        
+                    });
+                },
+            });
+
         }
     </script>
 
-  
+
 
     <script src="App_Themes/admin/js/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
