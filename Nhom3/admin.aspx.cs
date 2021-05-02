@@ -59,6 +59,26 @@ namespace Nhom3
             return dt;
         }
 
+        public static DataTable BindDataTotalAmoutByMonth()
+        {
+            DataTable dt = new DataTable();
+            SqlConnection conn = new SqlConnection(@"Data Source=PBGIANG;Initial Catalog=NHOM3;Integrated Security=True");
+            conn.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection = conn;
+            cmd.CommandText = "reportTotalAmoutByMonth";
+            var numDayOfMonth = DateTime.DaysInMonth(2021, DateTime.Now.Month);
+            cmd.Parameters.Add("@date1", SqlDbType.Date).Value = DateTime.Now.AddDays(-numDayOfMonth);
+            cmd.Parameters.Add("@date2", SqlDbType.Date).Value = DateTime.Now;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            dt = ds.Tables[0];
+            conn.Close();
+            return dt;
+        }
+
         private void intiDate()
         {
 
@@ -91,6 +111,20 @@ namespace Nhom3
         public static string GetBarDataLala()
         {
             DataTable dt = BindData();
+            dt.TableName = "Bar";
+            string result;
+            using (StringWriter sw = new StringWriter())
+            {
+                dt.WriteXml(sw);
+                result = sw.ToString();
+            }
+            return result;
+        }
+
+        [WebMethod]
+        public static string GetBarDataTotalAmoutByMonth()
+        {
+            DataTable dt = BindDataTotalAmoutByMonth();
             dt.TableName = "Bar";
             string result;
             using (StringWriter sw = new StringWriter())
